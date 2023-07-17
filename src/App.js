@@ -31,7 +31,7 @@ function App() {
  
   function resetInput(e) { 
     e.preventDefault(); 
-    setResult((result) => result + Number(inputRef.current.value)); 
+    inputRef.current.value = null; 
   }; 
  
   function resetResult(e) { 
